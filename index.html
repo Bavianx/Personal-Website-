@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c598850e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!------------------Header Section------------------>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">                  <!----  !!!!!!   ADD LATER WHEN YOU GET THEM -->
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#studies">Current Study</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Cyber Security Student</p>
+            <h1>Hello, I'm <span>Tavian</span> Deluce <br>Coulthard</h1>
+        </div>
+    </div>
+</div>
+<!------------------About Me Section------------------>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+            <img src="Images/IMG_3984.jpg">
+            </div>                                          <!----  !!!!!!   ADD LATER WHEN YOU GET THEM -->
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a 20-year-old friendly university student with a strong mindset, I finish tasks on time as well as the ability to complete them to high standards, 
+                    which I hope will reflect on my work ethic. Alongside my future aspirations where I am studying cyber security at university, through taking a 
+                    subject like this I hope it will show my desire to achieve remarkable things and to make a difference in the place of work.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br> - Html<br> - CSS<br> - JavaScript</li>
+                        <li><span>OS Systems </span><br>- Basic knowledge on Windows and Linux </li>
+                        <li><span>Problem solving</span><br>- Which I expanded my knowledge on during my time at Nottingham Forest and at university</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Nottingham Forest assistant videographer </span><br>  [Voluntary work experience 2019-2020]<br> <br> ¬ Increased the social media presence. Insight into problem solving, business meetings, expected deadlines and unexpected problems. This role involved active listening from managers giving constructive criticism which allowed me to better adapt to the job role.</li>
+                        <li><span>Web Development ‘Unique Walls’</span><br>[Work experience 2021]<br><br> ¬ This project allowed me to grow communication & confidence in the professional industry. In addition to honing my skills in communication and front and backend development to complete a website for a new emerging business. (Html, CSS, JavaScript, MySQL).</li>
+                        <li><span>Customer Assistant Morrisons</span><br>[2022 - Current*]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Confetti Institute of Creative Technologies | [2019-2020]</span><br> - Graphics Design <br> Grades - BTEC 90 Credit Diploma, Merit</li>
+                        <li><span>Nottingham College | [2020-2022]</span><br> - Information Technology & Cyber security<br> Grades- BTEC Diploma, Distinction*Distinction* </li>
+                        <li><span>Nottingham Trent University | [2022-2025]</span><br> Cyber Security<br> - First year grade 2-1 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------Current study------------------>
+
+<div id="studies">
+    <div class="container">
+        <h1 class="sub-title">Current Study</h1>
+        <div class="study-list">
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Bash</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur.</p>
+                    <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-linux"></i>
+                <h2>Linux</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur.</p>
+                    <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Networking</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur.</p>
+                    <a href="">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------------------Contact Footer------------------>
+<div id="contact">
+    <div class="container">
+            <div class="contact1">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Taviandc08@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>07368345802</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""></a>
+                </div>
+                <a href="Images/Tavian_Deluce_coulthard CV.docx" download class="btn">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Personal Portfolio Created By Tavian Deluce Coulthard</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
